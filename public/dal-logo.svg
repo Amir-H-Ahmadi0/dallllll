@@ -1,0 +1,39 @@
+<svg viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="dalBg" cx="400" cy="380" r="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0E2F26" />
+      <stop offset="65%" stop-color="#08221D" />
+      <stop offset="100%" stop-color="#051915" />
+    </radialGradient>
+    <linearGradient id="dalGold" x1="220" y1="160" x2="620" y2="680" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F5E4CB" />
+      <stop offset="25%" stop-color="#DFBA87" />
+      <stop offset="60%" stop-color="#B58B55" />
+      <stop offset="85%" stop-color="#DFBA87" />
+      <stop offset="100%" stop-color="#F5E4CB" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.45" />
+    </filter>
+  </defs>
+
+  <!-- Circular Base -->
+  <circle cx="400" cy="400" r="392" fill="url(#dalBg)" />
+  <circle cx="400" cy="400" r="392" stroke="url(#dalGold)" stroke-width="1.5" stroke-opacity="0.25" />
+
+  <!-- Emblem -->
+  <g filter="url(#shadow)">
+    <!-- Calligraphic 'Dal' -->
+    <path d="M 445 160 C 465 210, 515 260, 560 315 C 605 370, 622 445, 612 525 C 600 610, 555 680, 480 725 C 405 770, 305 775, 205 710 C 240 730, 310 755, 395 725 C 480 695, 540 625, 560 540 C 572 460, 550 380, 495 305 C 455 250, 442 200, 445 160 Z" fill="url(#dalGold)" />
+    <!-- Steam -->
+    <path d="M 390 285 C 368 332, 415 375, 375 422 C 362 435, 345 448, 332 458 C 352 445, 375 425, 380 402 C 388 370, 358 330, 390 285 Z" fill="url(#dalGold)" />
+    <path d="M 420 345 C 408 375, 428 402, 405 432 C 415 415, 425 392, 422 372 C 418 360, 420 352, 420 345 Z" fill="url(#dalGold)" opacity="0.88" />
+    <!-- Cup -->
+    <path d="M 265 498 C 350 430, 450 455, 488 515 C 480 542, 460 580, 430 612 C 390 655, 335 690, 270 702 C 328 662, 388 615, 418 558 C 438 525, 412 495, 345 488 C 305 485, 280 492, 265 498 Z" fill="url(#dalGold)" />
+    <!-- Handle -->
+    <path d="M 480 520 C 525 530, 538 560, 532 588 C 525 618, 490 635, 460 638 C 482 628, 510 612, 515 585 C 520 562, 505 542, 480 532 Z" fill="url(#dalGold)" />
+  </g>
+
+  <!-- Text -->
+  <text x="400" y="675" text-anchor="middle" fill="url(#dalGold)" font-size="38" font-family="'Times New Roman', serif" font-weight="600" letter-spacing="0.48em">DAL CAFÉ</text>
+</svg>

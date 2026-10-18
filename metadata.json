@@ -1,0 +1,6 @@
+{
+  "name": "کافه دال | Dal Café",
+  "description": "منوی آنلاین و وب‌سایت رسمی کافه دال - جایی برای مکث. تجربه آرامش، قهوه تخصصی و گفتگو.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
